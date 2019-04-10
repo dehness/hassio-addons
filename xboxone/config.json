@@ -3,7 +3,6 @@
   "version": "2.0.0",
   "slug": "xboxone",
   "description": "Control your Xbox One from your Home Assistant device",
-  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "url": "https://github.com/jmhill1287/hassio-addons/tree/master/xboxone",
   "startup": "before",
   "boot": "auto",
