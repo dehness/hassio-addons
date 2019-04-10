@@ -7,7 +7,7 @@
   "url": "https://github.com/jmhill1287/hassio-addons/tree/master/xboxone",
   "startup": "before",
   "boot": "auto",
-  "image": "homeassistant/{arch}-addon-xboxone",
+  "image": "hassioaddons/xboxone-{arch}",
   "host_network": true,
   "map": ["config:rw"],
   "options": {},
