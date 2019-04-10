@@ -6,6 +6,7 @@
   "url": "https://github.com/jmhill1287/hassio-addons/tree/master/xboxone",
   "startup": "before",
   "boot": "auto",
+  "image": "jmhill1287/hassio-{arch}-xboxone",
   "host_network": true,
   "map": ["config:rw"],
   "options": {},
