@@ -25,7 +25,7 @@ This component replicates many of the features of the Xbox App.  If it can't be 
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Hass.io add-on.
 
-1. [Add our Hass.io add-ons repository](https://github.com/hunterjm/hassio-addons) to your Hass.io instance.
+1. [Add our Hass.io add-ons repository](https://github.com/ericleb010/hassio-addons) to your Hass.io instance.
 2. Install the "Xbox One" add-on.
 3. Start the "Xbox One" add-on.
 4. Check the logs of the "Xbox One" add-on to see if everything went well.
@@ -39,7 +39,7 @@ comparison to installing any other Hass.io add-on.
 2. Execute `pip install xbox-smartglass-rest`.
 3. Create a service to autostart the server (e.g. for Systemd).
 4. Enable / start the service.
-5. Copy `xboxone.py` to `<hass config path>/custom_components/media_player/xboxone.py`.
+5. Copy `xboxone.py`, `manifest.json`, and `__init__.py` to `<hass config path>/custom_components/media_player/xboxone.py`.
 6. Proceed with __Installation__ step 5.
 
 ### Systemd service example
@@ -122,3 +122,5 @@ The original setup of this repository is by [Jason Hunter](https://github.com/hu
 Huge shoutout to [Team OpenXbox](https://github.com/openxbox) for reverse engineering the SmartGlass protocol and providing the libraries and server used.
 
 Special thanks to the contributions of [tuxuser](https://github.com/tuxuser) for answering late night questions and doing almost all of the heavy lifting on this.
+
+Further thanks to [jmhill1287](https://github.com/jmhill1287) for forking and supporting this library for a few months.
